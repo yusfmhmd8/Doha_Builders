@@ -1,0 +1,139 @@
+-var pageTitle = 'Contact';
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> DohaBuilders - Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    include includes/styles.pug
+
+</head>
+
+<body>
+
+
+    <!-- END slider -->
+    <div class="container">
+        <!-- Start Section Include -->
+        <section class="include">
+            <!-- Start Section Navbar -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        include includes/navbar.pug
+                    </div>
+                </div>
+            </div>
+            <!-- End Section Navbar -->
+            <!-- Start breadcrumb -->
+            <!--<div class="breadcrumb-holder">
+
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Contact</a></li>
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>-->
+            <!-- End breadcrumb -->
+            <!-- Start Section Contact Information -->
+            <section class="section border-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-5 order-2 element-animate">
+                            <form >
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <span>*</span>
+                                        <label for="name">Name</label>
+                                        <input type="text"  class="form-control "name="name" id="one" pattern="[أ-يA-Za-z/d  ]{2,24}" title="this field accept only characters" required>
+                                        
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <span>*</span>
+                                        <label for="phone" >Phone</label>
+                                        <input type="text"  class="form-control bfh-phone"  minlength="11" maxlength="11" size="11"name="phone" id="two"   data-format="ddddddddddd" data-number="1555555555" required  >
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                    <span>*</span>
+                                        <label for="email">Email</label>
+                                        <input type="email"   class="form-control "name="_replyto" id="three" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <span>*</span>
+                                        <label for="message">Write Message</label>
+                                        <textarea name="message"   class="form-control " cols="30" rows="8" id="four" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <button class="btn-submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6 order-2 mb-5 element-animate">
+                            <div class="row justify-content-right">
+                                <div class="col-md-8 mx-auto contact-form-contact-info">
+                                    <p class="d-flex">
+                                        <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+                                        <span>Salwa Road - AL ghanim Al gadeed Signal - Building 101</span>
+                                    </p>
+                                    <p class="d-flex">
+                                        <i class="fa fa-mobile fa-lg"></i>
+                                        <span>(+974) 30045469</span>
+                                    </p>
+                                    <p class="d-flex">
+                                        <i class="fa fa-mobile fa-lg"></i>
+                                        <span>(+974) 30004314</span>
+                                    </p>
+
+                                    <p class="d-flex">
+                                        <i class="fa fa-envelope fa-lg"></i>
+                                        <span>Sales@dohabuilders-qatar.com</span>
+                                    </p>
+                                    <p class="d-flex">
+                                        <i class="fa fa-envelope fa-lg"></i>
+                                        <span>Sameh@dohabuilders-qatar.com</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section Contact Information -->
+
+            
+            include includes/footer.pug
+        </section>
+        <!-- End Section Include -->
+    </div>
+
+    
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#4267b2" /></svg></div>
+
+    include includes/scripts.pug
+
+</body>
+
+</html>
